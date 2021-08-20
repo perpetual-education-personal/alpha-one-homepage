@@ -1,5 +1,7 @@
 <?php 
-$studentList = [
+$name = $slogan = $link = "";
+
+$studentData = [
 	"name" => $name,
 	"slogan" => $slogan,
 	"link" => $link,

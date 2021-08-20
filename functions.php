@@ -6,7 +6,7 @@
 			</li>
 
 			<li>
-				<a href="<?=$link?>"><?=$slogan?></a>
+				<a href="<?=$link?>" target="_newTab"><?=$slogan?></a>
 			</li>
 		</ul>
 
