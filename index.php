@@ -13,6 +13,8 @@
 			content="[[meta-description]]"
 		/>
 
+		<!-- I think most of these meta tags can be removed, except the description. thoughts? -->
+
 		<meta property="og:title" content="[[meta-content]]" />
 		<meta property="og:type" content="">
 		<meta property="og:url" content="">
