@@ -1,6 +1,8 @@
 @import 'meyers-reset.css';
 @import 'reset.css';
 
+@import 'tommy.css';
+
 h1 {
    font-size:  50px;
 }

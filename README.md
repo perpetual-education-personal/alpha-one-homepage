@@ -30,6 +30,14 @@ Making videos about that right now. (example of an upstream/(main repo) change)
 
 I am simply trying to change something, and then make a pull request (which really should be called a PUSH request, right?)
 
+
 ### Marco was here! Let's Git it done!!!
 
+### TOMMY was here!!!
+
+## Jesse Hunter 
+I was here with Derek and Jevohn
+
+### JOHN X M was here!
+I am commiting a change!
 
