@@ -20,9 +20,7 @@
 		<ul>
 			<li>
 				<?php 
-				studentCardGenerator("marco", "lets git it done", "https://perpetual.education");
-				
-				// studentCardGenerator("alex", "web design is fun", "https://perpetual.education");
+				/*removed the function call. someone else can have a go at it*/
 				?>
 					
 			</li>
