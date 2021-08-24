@@ -1,14 +1,10 @@
-<?php function studentCardGenerator($name, $slogan, $link)  {?>
+<?php function studentCardGenerator($name, $teaser, $link)  {?>
 	<student-card>
-		<ul class="student-info">
-			<li>
-				<h2 class="student-name"><?=$name?></h2>
-			</li>
+		<h2 class="site-title"><?=$name?></h2>
 
-			<li>
-				<a href="<?=$link?>" target="_newTab"><?=$slogan?></a>
-			</li>
-		</ul>
+		<p class="teaser"><?=$teaser?></p>
+
+		<a class="link" href="<?=$link?>" target="_newTab"><?=$slogan?></a>
 
 	</student-card>
 <?php }?>
