@@ -13,7 +13,26 @@
 
     <meta property="og:image" content="images/a1-placeholder">
   </head>
-  <body>  
+  <body>
+  <?php
+  include 'student-data.php';
+  include "functions.php";
+  ?>  
+    <main class="site-main">
+      <section class="portal-cards">
+        <inner-column>
+          <h1 class="homepage-title">welcome to the homepage of <span class="cohort">Alpha-1</span></h1>
 
+
+          <ol class="student-list">
+            <?=studentCardGenerator("marco", "Bauhaus enthusiast, web designer and programmer", "enter!")?>
+
+            
+
+
+          </ol>
+        </inner-column>
+      </section>
+    </main>
   </body>
 </html>
