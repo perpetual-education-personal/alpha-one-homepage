@@ -26,8 +26,8 @@
 
           <ol class="student-list">
             <?=studentCardGenerator("marco", "Bauhaus enthusiast, web designer and programmer", "enter!")?>
-
             
+            <?=studentCardGenerator("SheriffDerek", "The Place to go - to see all the bare-bones assignment solutions", "Engage!")?>
 
 
           </ol>
