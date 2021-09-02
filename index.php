@@ -29,6 +29,10 @@
             
             <?=studentCardGenerator("SheriffDerek", "The Place to go - to see all the bare-bones assignment solutions", "Engage!")?>
 
+            <?=studentCardGenerator("student name", "tagline", "cta!")?>
+
+
+
 
           </ol>
         </inner-column>
