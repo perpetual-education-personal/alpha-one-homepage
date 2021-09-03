@@ -31,6 +31,8 @@
 
             <?=studentCardGenerator("student name", "tagline", "cta!")?>
 
+            <?=studentCardGenerator("Ivy", "Super UX challenge winner", "read em and weep!")?>
+
 
 
 
