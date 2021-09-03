@@ -1,42 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
-    <meta charset="utf-8">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Alpha-1</title>
+		<meta name="description" content="Meet the students of Alpha-1" />
+		<meta name="og:description" content="Meet the students of Alpha-1" />
+		<meta property="og:title" content="Alpha-1" />
+		<meta property="og:url" content="[[insert url here]]">
+		<meta property="og:image" content="[[meta-image]]" />
+		<link rel="shortcut icon" type="image/jpg" href="[[favicon]]" />
 
-    <title>alpha 1 homepage</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<?php include('student_data.php'); ?>
+	<?php include('functions.php'); ?>
 
-    <meta name="description" content="The only place on the internet to see all the alpha-1 projects.">
+	<body>
 
-    <meta property="og:image" content="images/a1-placeholder">
-  </head>
-  <body>
-  <?php
-  include 'student-data.php';
-  include "functions.php";
-  ?>  
-    <main class="site-main">
-      <section class="portal-cards">
-        <inner-column>
-          <h1 class="homepage-title">welcome to the homepage of <span class="cohort">Alpha-1</span></h1>
+		<div class='inner-column'>
+			<header class="site-header">
+				<inner-column>
+          		<h1>Alpha-1 Homepage</h1>
+          		<h2>Meet the students of Alpha-1</h2>        
+       		</inner-column>
+			</header>
 
+			<main>
+				<section class="portal">
+        	<inner-column>
+        		<ol class="student-list">
 
-          <ol class="student-list">
-            <?=studentCardGenerator("marco", "Bauhaus enthusiast, web designer and programmer", "enter!")?>
-            
-            <?=studentCardGenerator("SheriffDerek", "The Place to go - to see all the bare-bones assignment solutions", "Engage!")?>
+         		<!-- Array ... item refered to as -->
+          		<?php foreach ($student_data as $student) { ?>
+            	<li class="student">
+            	<?php buildStudentCard($student); ?>
+            	</li>
+          		<?php } ?>
+          		
+        		</ol>
+      		</inner-column>
+				</section>
+			</main>
 
-            <?=studentCardGenerator("student name", "tagline", "cta!")?>
-
-
-
-
-          </ol>
-        </inner-column>
-      </section>
-    </main>
-  </body>
+			<footer>
+				<inner-column>
+					<p>alpha-1 to the moon 🚀</p>
+				</inner-column>
+			</footer>
+		</div>
+	
+	</body>
 </html>

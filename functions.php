@@ -1,10 +1,23 @@
-<?php function studentCardGenerator($name, $teaser, $cta) {?>
-<li>
-	<student-card class="student-info">
-		<h3 class="name"><?=$name?></h3>
+<?php
+	// some general functions you can use in the other files
 
-		<p class="teaser"><?=$teaser?></p>
-		<a class="cta" href=""><span><?=$cta?></span></a>
+	// "Key" is folder name
+?>
+
+<?php function buildStudentCard($student) { ?>
+	<student-card id='<?=$student["key"]?>-theme'>
+
+		<?php if ($student["extra"]) { ?>
+			<div class='flourish'></div>
+		<?php } ?>
+
+		<h3 class='site-title'><?=$student["title"]?></h3>
+
+		<p class='teaser'><?=$student["teaser"]?></p>
+
+		<a class='link' href='<?=$student["key"]?>' target='<?=$student["key"]?>'>
+			<span><?=$student["cta"]?></span>
+		</a>
+
 	</student-card>
-</li>
 <?php } ?>
