@@ -29,18 +29,18 @@
 
 			<main>
 				<section class="portal">
-          		<inner-column>
-            		<ol class="student-list">
+        	<inner-column>
+        		<ol class="student-list">
 
-             		<!-- Array ... item refered to as -->
-              		<?php foreach ($student_data as $student) { ?>
-                	<li class="student">
-                	<?php buildStudentCard($student); ?>
-                	</li>
-              		<?php } ?>
-              		
-            		</ol>
-	      		</inner-column>
+         		<!-- Array ... item refered to as -->
+          		<?php foreach ($student_data as $student) { ?>
+            	<li class="student">
+            	<?php buildStudentCard($student); ?>
+            	</li>
+          		<?php } ?>
+          		
+        		</ol>
+      		</inner-column>
 				</section>
 			</main>
 

@@ -1,4 +1,3 @@
-
 <?php
 	// some general functions you can use in the other files
 
@@ -13,9 +12,12 @@
 		<?php } ?>
 
 		<h3 class='site-title'><?=$student["title"]?></h3>
+
 		<p class='teaser'><?=$student["teaser"]?></p>
+
 		<a class='link' href='<?=$student["key"]?>' target='<?=$student["key"]?>'>
 			<span><?=$student["cta"]?></span>
 		</a>
+
 	</student-card>
 <?php } ?>
