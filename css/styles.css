@@ -37,6 +37,7 @@ main {
 student-card {
    border: 3px solid black; 
    display:  block;
+   min-height:  310px;
    line-height:  1; /* ? */
 }
 
@@ -52,7 +53,7 @@ ol {
 
 .student-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   grid-gap: 20px;
 } 
 
