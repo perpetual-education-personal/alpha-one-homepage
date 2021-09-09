@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+p {
+	word-break: keep-all;
+	max-width: 60ch;
+}
+
+p + p, a + p, a + a {
+	margin-top: 8px;
+}
+
+p a {
+	overflow-wrap: break-word;
+	
+}
+
+em {
+	font-style: italic;
+}
+
+.loud-voice {
+	font-family: "Libre Baskerville", serif;
+	font-size: clamp(30px,8vw,56px);
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 20px;
+	color: var(--brown);
+}
+
+.intro-voice {
+	font-family: "Libre Baskerville", serif;
+	font-size: clamp(25px,6vw,32px);
+	font-style: italic;
+	line-height: 1.1;
+	margin-bottom: 15px;
+	color: var(--brown);
+}
+
+.small-intro-voice {
+	font-family: "Libre Baskerville", serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	color: var(--brown);
+}
+
+.calm-voice {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: .03em;
+	line-height: 1.4;
+	color: var(--forestgreen);
+}
+
+.invite-voice-green {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	color: var(--peagreen);
+	width: fit-content;
+}
+
+.invite-voice-red {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	color: var(--red);
+	width: fit-content;
+}
+
+.invite-voice-red:hover, .invite-voice-green:hover {
+	text-decoration: solid underline 2px;
+	filter: brightness(1.2);
+}

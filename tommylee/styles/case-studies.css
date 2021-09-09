@@ -1,0 +1,128 @@
+.case-studies inner-column {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.case-studies h2, .case-studies p, h3.case-title, flex-wrapper p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.case-wrapper {
+	padding-top: 40px;
+}
+
+.case-title {
+	margin-top: 20px;
+	border-bottom: 2px solid var(--brown);
+}
+
+.case-wrapper picture {
+	margin-bottom: 10px;
+}
+
+flex-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 0;
+}
+
+/*.case-wrapper:not(:last-of-type):after {
+	content: "";
+	display: block;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 5px dotted var(--brown);
+}*/
+
+
+@media (min-width: 500px) {
+
+	flex-wrapper p {
+		width: 80%;
+		border-radius: 10px;
+		border: 2px solid var(--forestgreen);
+		background-color: #fff;
+		padding: 20px;
+		transform: translate(15%, -30px);
+		box-shadow: 3px 3px var(--forestgreen);
+	}
+
+	flex-wrapper:nth-of-type(odd) p {
+		transform: translate(5%, -30px);
+	}
+
+	p.case-intro {
+		border: 2px solid var(--forestgreen);
+		box-shadow: 3px 3px var(--forestgreen);
+		color: var(--forestgreen);
+		background-color: var(--yellow);
+		background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4543/noise-50.png");
+	}
+
+}
+
+
+@media (min-width: 800px) {
+	
+	.case-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.case-wrapper picture {
+		max-width: 70%;
+	}
+
+	h3.case-title {
+		position: sticky;
+		top: 12px;
+		z-index: 1;
+		background-color: #fff;
+		border: 2px solid var(--brown);
+		padding: 10px 40px;
+		margin-left: 80px;
+		margin-bottom: 20px;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		width: fit-content;
+	}
+
+	.case-wrapper:before {
+		content: "";
+		display: block;
+		width: 100%;
+		border-bottom: 2px solid var(--brown);
+		transform: translate(0,50px);
+	}
+
+	flex-wrapper {
+		padding: 0 40px;
+	}
+
+	flex-wrapper p {
+		margin: 0 30px;
+		max-width: 40%;
+		transform: translate(0,-30px);
+		align-self: flex-end;
+	}
+
+	flex-wrapper:nth-of-type(odd) p {
+		transform: translate(0, -30px);
+		align-self: flex-start;
+	}
+
+	flex-wrapper:nth-of-type(odd) picture {
+		align-self: flex-end;
+	}
+}
+
+
+
+
+
+
+
