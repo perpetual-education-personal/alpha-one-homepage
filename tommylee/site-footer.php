@@ -1,7 +1,7 @@
 	<footer>
 		<inner-column>
 			<div>
-				<h3 class="small-intro-voice">Links:</h3>
+				<h3 class="small-intro-voice">Footer Links</h3>
 				<a href="#home" class="invite-voice-red">Back to the top</a>
 				<a href="https://perpetual.education" class="invite-voice-red" target="_blank">Learn web design</a>
 				<br>

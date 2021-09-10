@@ -15,7 +15,7 @@
 						<h3 class="small-intro-voice">Responsive</h3>
 
 						<p class="calm-voice">
-							Today's web is <a href="#" class="invite-voice-red" target="_blank">88% mobile</a>. Your website will be built for the phone first, but it will look good in bigger screens as&nbsp;well.
+							Today's web is <a href="https://www.broadbandsearch.net/blog/mobile-desktop-internet-usage-statistics" class="invite-voice-red" target="_blank">more mobile than ever</a>. Your website will be built for the phone first, but it will look good in bigger screens as&nbsp;well.
 						</p>
 					</li>
 
@@ -23,14 +23,14 @@
 						<h3 class="small-intro-voice">Visually appealing</h3>
 
 						<p class="calm-voice">
-							The average person will decide if a website is worth their time in <a href="#" target="_blank" class="invite-voice-red">less than 4 seconds</a>. Let's come together to a hard to leave, eye-catching&nbsp;website. 
+							The average person will decide if a website is worth their time within <a href="https://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/" target="_blank" class="invite-voice-red">10 seconds</a>. Let's come together to a hard to leave, eye-catching&nbsp;website. 
 						</p>
 					</li>
 
 					<li class="value-card">
 						<h3 class="small-intro-voice">Human-Centered</h3>
 
-						<p class="calm-voice">After all, we want to tell our story to real people. Extensive user testing will ensure that your website makes sense for your specific&nbsp;audience.</p>
+						<p class="calm-voice">Rest assured, extensive user testing will ensure that your website makes sense for your specific&nbsp;audience.</p>
 					</li>
 
 					<li class="value-card">

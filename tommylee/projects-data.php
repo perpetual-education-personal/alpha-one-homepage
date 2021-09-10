@@ -13,18 +13,18 @@
 		],[
 			"key" => "Fortia",
 			"title" => "Fortia Homme",
-			"intro" => "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
-			"par1" => "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.",
-			"par2" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt voluptatibus officiis vero commodi sed at sunt odit eligendi. Eaque, molestiae. Quo molestiae provident quae dicta aperiam quaerat. Rerum, doloribus!",
+			"intro" => "Ecommerce store built with Shopify. Fortia targets the young male audience to offer fresh and trendy jewelry. An elegant low key green and gray were chosen to denote manliness.",
+			"par1" => "The collection list were created in a poetic style for each jewelry color. Since the goal was to communicate as many promotions as possible, I chose a split hero section.",
+			"par2" => "To enhance the detail view of each item, I preferred to go with a one image column for the mobile view. A group of three items were created with Photoshop to make it visually engaging. I also created custom color swatches.",
 			"logo" => "images/fortia-01.jpg",
 			"img1" => "images/fortia-02.jpg",
 			"img2" => "images/fortia-03.jpg",
 		],[
 			"key" => "trendy",
 			"title" => "Trendy Apparel&nbsp;Shop",
-			"intro" => "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
-			"par1" => "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.",
-			"par2" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt voluptatibus officiis vero commodi sed at sunt odit eligendi. Eaque, molestiae. Quo molestiae provident quae dicta aperiam quaerat. Rerum, doloribus!",
+			"intro" => "The client was in need of a interface lift for their store website. I worked on the entire home page creating a new visual theme, landing images, sections and collection groups.",
+			"par1" => "The client also needed to create custom categories for its thousands of items. I worked on custom tags for the categories, creating automated rules. Custom images were created to promote specific products.",
+			"par2" => "Each important category has its own hero image, but these share a common visual theme. The client also requested a custom form for a specific group of customers.",
 			"logo" => "images/trendy-01.jpg",
 			"img1" => "images/trendy-02.jpg",
 			"img2" => "images/trendy-03.jpg",
@@ -36,12 +36,12 @@
 		],[
 			"key"=> "pe-coffee",
 			"title" => "Store Front Development",
-			"intro" => "Personal project involving fully responsive layout and custom theming. Built with HTML and CSS.",
+			"intro" => "Personal project involving fully responsive layouts and custom theming. A button toggles between a car brand website and a coffee store website. Built with HTML and CSS.",
 			"logo" => "images/pe-coffee-01.jpg",
 		],[
 			"key"=> "pe-monsters",
 			"title" => "Item Cards",
-			"intro" => "Personal project to showcase the use of cards. Each item changes its state accroding to the database. Built with HTML,  CSS and PHP.",
+			"intro" => "Personal project to showcase the use of cards. Each item changes its state according to the database. Built with HTML, CSS and PHP.",
 			"logo" => "images/pe-monsters-01.jpg",
 		]
 	];

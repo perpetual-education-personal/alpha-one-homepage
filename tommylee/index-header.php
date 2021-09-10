@@ -2,7 +2,7 @@
 		<noise-wrapper>
 			<inner-column>
 
-				<h1 class="loud-voice">Tommy Lee
+				<h1 class="loud-voice header-title">Tommy Lee
 				<br>Web Design</h1>
 
 				<p class="calm-voice">Hi, people call me Tommy. I help small and medium-sized businesses in setting up and maintaining their websites. Unlike my competitors, I deliver fast, streamlined goal-focused products. — <em>Hablemos.&nbsp;연락주세요.</em></p>
