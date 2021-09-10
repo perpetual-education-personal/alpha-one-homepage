@@ -52,7 +52,7 @@
 				<h2 class="intro-voice">Contact Me</h2>
 				<p class="calm-voice">
 					Did you like what you just saw? No? Either way, let me know! The best way to contact me is through email.</p>
-					<a href="mailto:thomaslee9119@gmail.com" class="button-red">Contact Me</a>
+					<a href="mailto:tommy@tommylee.dev?subject=Hi" class="button-red">Contact Me</a>
 				</p>
 
 			</inner-column>

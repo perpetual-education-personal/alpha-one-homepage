@@ -10,7 +10,7 @@
 			</inner-column>
 
 			<inner-column class="header-buttons">
-				<a href="mailto:thomaslee9119@gmail.com?subject=Hello" class="button-red">Contact Now</a>
+				<a href="mailto:tommy@tommylee.dev?subject=Hello" class="button-red">Contact Now</a>
 				<a href="#values" class="button-green">Read More</a>
 			</inner-column>			
 		</noise-wrapper>
