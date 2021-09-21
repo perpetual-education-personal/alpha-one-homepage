@@ -1,10 +1,10 @@
 	<section class="case-studies" id="projects">
 		<inner-column>
 			
-			<h2 class="intro-voice">Projects Case Studies</h2>
+			<h2 class="intro-voice">Projects | Case Studies</h2>
 
 			<p class="calm-voice">
-				From personal business card style websites to Shopify ecommerce stores, read and explore about the projects I had the privilege to work on. You'll also find personal projects to the end.
+				From business card style websites to Shopify ecommerce stores, read and explore about the projects I had the privilege to work on. You'll also find personal projects to the end.
 			</p>
 
 			<?php include('projects-data.php'); ?>

@@ -3,7 +3,7 @@
 		<section class="values" id="values">
 			<inner-column>
 				
-				<h2 class="intro-voice">Your Website Will&nbsp;Be</h2>
+				<h2 class="intro-voice">Core Values</h2>
 
 				<p class="calm-voice">
 					Regardless of the specific type of website we'll build, here are the values I deliver for every project.
@@ -36,7 +36,7 @@
 					<li class="value-card">
 						<h3 class="small-intro-voice">Multilingual</h3>
 
-						<p class="calm-voice">As a native Korean and Spanish speaker, I can also build a website specifically targeting these&nbsp;languages.</p>
+						<p class="calm-voice">As a native Korean and Spanish speaker, you can contact me in either language to communicate with&nbsp;me.</p>
 					</li>					
 
 				</ul>
@@ -52,7 +52,7 @@
 				<h2 class="intro-voice">Contact Me</h2>
 				<p class="calm-voice">
 					Did you like what you just saw? No? Either way, let me know! The best way to contact me is through email.</p>
-					<a href="mailto:tommy@tommylee.dev?subject=Hi" class="button-red">Contact Me</a>
+					<a href="mailto:tommy@tommylee.dev?subject=Hi" class="button-red">Contact Now</a>
 				</p>
 
 			</inner-column>
