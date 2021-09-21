@@ -15,22 +15,29 @@
 
 			<section class="case-wrapper" id="<?=$key?>">
 
-				<h3 class="small-intro-voice case-title">Project: <?=$title?></h3>
+				<h3 class="small-intro-voice case-title" data-aos="fade-right">Project: <?=$title?></h3>
 
 				<flex-wrapper class="case-head">
-					<picture>
+					<picture data-aos="fade-left" data-aos-duration="500">
 						<img src="<?=$logo?>" alt="">
 					</picture>
-					<p class="calm-voice case-intro"><?=$intro?></p>
+					<div class="case-intro" data-aos="fade-left" data-aos-duration="1000">
+						<p class="calm-voice">
+							<?=$intro?>
+						</p>
+					</div>
+
 				</flex-wrapper>
 
 			<?php if ( $par1 ) { ?>
 
 				<flex-wrapper class="case-main1">
-					<picture>
+					<picture data-aos="fade-right" data-aos-duration="500">
 						<img src="<?=$img1?>" alt="">
 					</picture>
-					<p class="calm-voice"><?=$par1?></p>
+					<div data-aos="fade-right" data-aos-duration="1000">
+						<p class="calm-voice"><?=$par1?></p>
+					</div>
 				</flex-wrapper>
 
 			<?php } ?>
@@ -38,10 +45,12 @@
 			<?php if ( $par2 ) { ?>
 
 				<flex-wrapper class="case-main2">
-					<picture>
+					<picture data-aos="fade-left"  data-aos-duration="500">
 						<img src="<?=$img2?>" alt="">
-					</picture>
-					<p class="calm-voice"><?=$par2?></p>
+					</picture>					
+					<div data-aos="fade-left" data-aos-duration="1000">
+						<p class="calm-voice"><?=$par2?></p>
+					</div>
 				</flex-wrapper>		
 				
 			<?php } ?>

@@ -75,7 +75,7 @@ flex-wrapper {
 
 
 @media (min-width: 800px) {
-	
+
 	.case-wrapper {
 		display: flex;
 		flex-direction: column;
@@ -113,7 +113,7 @@ flex-wrapper {
 
 	flex-wrapper p {
 		max-width: 50%;
-		transform: translate(-10px,-100px);
+		transform: translate(100%,-100px);
 		align-self: flex-end;
 	}
 
@@ -125,6 +125,7 @@ flex-wrapper {
 	flex-wrapper:nth-of-type(odd) picture {
 		align-self: flex-end;
 	}
+
 }
 
 

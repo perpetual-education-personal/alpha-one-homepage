@@ -9,7 +9,6 @@
 			<nav class="site-menu">
 				<a href="#projects">projects</a>
 				<a href="#contact">contact</a>
-				<a href="#pe">PE</a>
 			</nav>
 		</inner-column>
 	</header>
