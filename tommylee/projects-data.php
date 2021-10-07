@@ -5,7 +5,7 @@
 			"key" => "Thovon",
 			"title" => "Thovon&nbsp;Headwear",
 			"intro" => "The client needed a Shopify store for their newly created ecommerce hat brand. The visual aspects were set to appear as a classy and gentle brand, targeting a middle-aged audience.",
-			"par1" => "The colors navy blue and rustic gold were chosen to denote elegance and maturity. The font selection had the goal of showing the company as modern and contemporary.",
+			"par1" => "The colors navy blue and rustic gold were chosen to denote elegance and maturity. The font selection had the goal of showing the company as being modern and contemporary.",
 			"par2" => "The client decided to use a mega-menu to showcase newest arrivals. The mobile menu features useful, fast-access links. The product detail page was designed to be minimalistic and sophisticated.",
 			"logo" => "images/thovon-01.jpg",
 			"img1" => "images/thovon-02.jpg",
@@ -36,7 +36,7 @@
 		],[
 			"key"=> "pe-coffee",
 			"title" => "Store Front Development",
-			"intro" => "Personal project involving fully responsive layouts and custom theming. A button toggles between a car brand website and a coffee store website. Built HTML, CSS and JS.",
+			"intro" => "Personal project involving fully responsive layouts and custom theming. A button toggles between a car brand website and a coffee store website. Built with HTML, CSS and JS.",
 			"logo" => "images/pe-coffee-01.jpg",
 		],[
 			"key"=> "pe-monsters",

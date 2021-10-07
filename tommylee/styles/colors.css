@@ -1,9 +1,9 @@
 /* MANGO THEME */
 
 :root {
-	--yellow: #f8f9f5;
 	--red: #c1554e;
 	--peagreen: #97b62a;
-	--forestgreen: #333/*#015148*/;
-	--brown: #333/*#3f2e32*/;
+	--black: #212326;
+	--shgreen: #014c40;
+	--white: #f5f5f5;
 }

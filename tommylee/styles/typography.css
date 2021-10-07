@@ -23,32 +23,33 @@ em {
 }
 
 .loud-voice {
-	font-family: "Libre Baskerville", serif;
-	font-size: clamp(30px,8vw,56px);
-	font-weight: 700;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: clamp(30px,8vw,48px);
+	font-weight: 900;
 	line-height: 1.2;
 	margin-bottom: 20px;
-	color: var(--brown);
+	color: var(--black);
 }
 
 .intro-voice {
-	font-family: "Libre Baskerville", serif;
-	font-size: clamp(25px,6vw,32px);
-	font-style: italic;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: clamp(25px,7vw,32px);
+	font-weight: bold;
+	letter-spacing: 0.02em;
 	line-height: 1.1;
 	margin-bottom: 15px;
-	color: var(--brown);
+	color: var(--black);
 }
 
 .small-intro-voice {
-	font-family: "Libre Baskerville", serif;
-	font-size: 14px;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 0.09em;
-	line-height: 1.2;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: clamp(20px,6vw,24px);
+	font-style: italic;
+	text-transform: capitalize;
+	letter-spacing: 0.02em;
+	line-height: 1.5;
 	margin-bottom: 10px;
-	color: var(--brown);
+	color: var(--black);
 }
 
 .calm-voice {
@@ -56,8 +57,8 @@ em {
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: .03em;
-	line-height: 1.4;
-	color: var(--forestgreen);
+	line-height: 1.7;
+	color: var(--black);
 }
 
 .invite-voice-green {
@@ -74,11 +75,12 @@ em {
 	font-size: 16px;
 	font-weight: 600;
 	text-decoration: none;
-	color: var(--red);
+	color: inherit;
 	width: fit-content;
+	text-decoration: solid underline 2px;
 }
 
 .invite-voice-red:hover, .invite-voice-green:hover {
-	text-decoration: solid underline 2px;
 	filter: brightness(1.2);
+	text-decoration: solid underline 3px;
 }

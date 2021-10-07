@@ -23,14 +23,14 @@
 						<h3 class="small-intro-voice">Visually appealing</h3>
 
 						<p class="calm-voice">
-							The average person will decide if a website is worth their time within <a href="https://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/" target="_blank" class="invite-voice-red">10 seconds</a>. Let's come together to a hard to leave, eye-catching&nbsp;website. 
+							The average person will decide if a website is worth their time within <a href="https://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/" target="_blank" class="invite-voice-red">10 seconds</a>. Let's build a hard to leave, eye-catching&nbsp;website. 
 						</p>
 					</li>
 
 					<li class="value-card">
 						<h3 class="small-intro-voice">Human-Centered</h3>
 
-						<p class="calm-voice">Rest assured, extensive user testing will ensure that your website makes sense for your specific&nbsp;audience.</p>
+						<p class="calm-voice">Rest assured, extensive user testing will ensure that the website makes sense for your specific&nbsp;audience.</p>
 					</li>
 
 					<li class="value-card">
@@ -52,8 +52,8 @@
 				<h2 class="intro-voice">Contact Me</h2>
 				<p class="calm-voice">
 					Did you like what you just saw? No? Either way, let me know! The best way to contact me is through email.</p>
-					<a href="mailto:tommy@tommylee.dev?subject=Hi" class="button-red">Contact Now</a>
-				</p>
+
+				<a href="contact.html" target="_blank" class="button-primary">Contact Now</a>
 
 			</inner-column>
 		</section>

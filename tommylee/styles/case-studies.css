@@ -15,8 +15,8 @@
 .case-title {
 	margin-top: 70px;
 	margin-bottom: 20px;
-	background-color: var(--brown);
-	color: var(--yellow);
+	background-color: var(--black);
+	color: var(--white);
 	padding: 2em 2em;
 }
 
@@ -30,8 +30,6 @@ flex-wrapper {
 	flex-direction: column;
 }
 
-
-
 /*.case-wrapper:not(:last-of-type):after {
 	content: "";
 	display: block;
@@ -40,16 +38,10 @@ flex-wrapper {
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border-bottom: 5px dotted var(--brown);
+	border-bottom: 5px dotted var(--black);
 }*/
 
-
 @media (min-width: 500px) {
-
-	.case-studies inner-column {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
 
 	.case-studies h2, .case-studies p, h3.case-title, flex-wrapper p {
 		margin-left: 0;
@@ -59,11 +51,11 @@ flex-wrapper {
 	flex-wrapper p {
 		width: 80%;
 		border-radius: 10px;
-		border: 2px solid var(--forestgreen);
-		padding: 20px;
+		border: 2px solid var(--black);
+		padding: 30px;
 		transform: translate(20%, -40px);
-		box-shadow: 3px 3px var(--forestgreen);
-		background-color: #f8f9f5;
+		box-shadow: 3px 3px var(--black);
+		background-color: var(--white);
 		background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4543/noise-50.png");
 	}
 
@@ -73,7 +65,6 @@ flex-wrapper {
 
 }
 
-
 @media (min-width: 800px) {
 
 	.case-wrapper {
@@ -82,7 +73,7 @@ flex-wrapper {
 	}
 
 	.case-wrapper picture {
-		max-width: 70%;
+		max-width: 80%;
 		margin-top: 30px;
 	}
 
@@ -90,11 +81,11 @@ flex-wrapper {
 		position: sticky;
 		top: 20px;
 		z-index: 1;
-		background-color: #333;
+		background-color: var(--black);
 		padding: 15px 50px;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 20px;
+		margin-bottom: 60px;
 		border-radius: 10px;
 		width: fit-content;
 	}
@@ -103,7 +94,7 @@ flex-wrapper {
 		content: "";
 		display: block;
 		width: 100%;
-		border-bottom: 2px solid var(--brown);
+		border-bottom: 2px solid var(--black);
 		transform: translate(0,50px);
 	}*/
 
