@@ -8,6 +8,10 @@
 
 /* FOUNDATIONS */
 
+* {
+	scroll-behavior: smooth;
+}
+
 inner-column {
 	display: flex;
 	padding: 150px 20px;
@@ -16,10 +20,6 @@ inner-column {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-* {
-	scroll-behavior: smooth;
 }
 
 @media (min-width: 800px) {

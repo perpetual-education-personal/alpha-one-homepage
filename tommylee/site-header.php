@@ -7,7 +7,7 @@
 			</a>
 
 			<nav class="site-menu">
-				<a href="#projects">projects</a>
+				<a href="#projects">case studies</a>
 				<a href="#contact">contact</a>
 			</nav>
 		</inner-column>

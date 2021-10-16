@@ -43,9 +43,15 @@ flex-wrapper {
 
 @media (min-width: 500px) {
 
+
 	.case-studies h2, .case-studies p, h3.case-title, flex-wrapper p {
 		margin-left: 0;
 		margin-right: 0;
+	}
+
+	.case-studies div {
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	flex-wrapper p {
