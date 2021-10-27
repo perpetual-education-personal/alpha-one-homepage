@@ -39,11 +39,12 @@ em {
 	line-height: 1.1;
 	margin-bottom: 15px;
 	color: var(--black);
+	text-transform: capitalize;
 }
 
 .small-intro-voice {
 	font-family: "Nunito Sans", sans-serif;
-	font-size: clamp(20px,6vw,24px);
+	font-size: 20px;
 	font-style: italic;
 	text-transform: capitalize;
 	letter-spacing: 0.02em;
@@ -75,12 +76,20 @@ em {
 	font-size: 16px;
 	font-weight: 600;
 	text-decoration: none;
-	color: inherit;
+	color: var(--shgreen);
 	width: fit-content;
-	text-decoration: solid underline 2px;
 }
 
-.invite-voice-red:hover, .invite-voice-green:hover {
-	filter: brightness(1.2);
-	text-decoration: solid underline 3px;
+.invite-voice-red span {
+	display: inline;
+	background-image: linear-gradient(currentColor, currentColor);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	transition: .2s;
+}
+
+.invite-voice-red:hover span, .invite-voice-green:hover {
+	background-size: 100% 2px;
+
 }

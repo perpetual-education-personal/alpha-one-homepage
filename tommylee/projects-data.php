@@ -2,7 +2,7 @@
 
 	$projectsData = [
 		[
-			"key" => "Thovon",
+			"key" => "thovon",
 			"title" => "Thovon&nbsp;Headwear",
 			"intro" => "The client needed a Shopify store for their newly created ecommerce hat brand. The visual aspects were set to appear as a classy and gentle brand, targeting a middle-aged audience.",
 			"par1" => "The colors navy blue and rustic gold were chosen to denote elegance and maturity. The font selection had the goal of showing the company as being modern and contemporary.",
@@ -11,7 +11,7 @@
 			"img1" => "images/thovon-02.jpg",
 			"img2" => "images/thovon-03.jpg",
 		],[
-			"key" => "Fortia",
+			"key" => "fortia",
 			"title" => "Fortia Homme",
 			"intro" => "Ecommerce store built with Shopify. Fortia targets the young male audience to offer fresh and trendy jewelry. An elegant low key green and gray were chosen to denote masculinity.",
 			"par1" => "The collection images features elements from nature, metaphorically connecting the strength of nature to each collection's items. For the landing section, since the goal was to communicate as many ongoing promotions as possible, I chose a split hero section.",

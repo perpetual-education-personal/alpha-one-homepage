@@ -1,11 +1,22 @@
+<!-- THE ROUTER -->
+<?php
+	$currentPage = null;
+	if( isset($_GET['page']) ) {
+		$currentPage = $_GET['page'];
+	} else {
+		$currentPage = 'home';
+	}
+
+	function pageLoader($currentPage) {
+		include($currentPage . '.php');
+	}
+?>
+
+
 <!doctype html>
 <html lang="en">
 
-
 <?php include('head.php');?>
-
-
-
 
 <body>
 
@@ -14,11 +25,17 @@
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
-	<?php include('index-header.php')?>
+	<?php
+		if( $currentPage == 'home' ) {
+			include('index-header.php');
+		}
+	?>
 
 	<?php include('site-header.php')?>
 
-	<?php include('index-main.php')?>
+	<main>
+		<?php pageLoader($currentPage); ?>	
+	</main>
 
 	<?php include('site-footer.php')?>
 
