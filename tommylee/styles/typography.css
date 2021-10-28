@@ -62,16 +62,16 @@ em {
 	color: var(--black);
 }
 
-.invite-voice-green {
+.invite-voice-alt {
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	text-decoration: none;
-	color: var(--peagreen);
+	color: var(--white);
 	width: fit-content;
 }
 
-.invite-voice-red {
+.invite-voice {
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 600;
@@ -80,7 +80,7 @@ em {
 	width: fit-content;
 }
 
-.invite-voice-red span {
+.invite-voice span {
 	display: inline;
 	background-image: linear-gradient(currentColor, currentColor);
 	background-position: left bottom;
@@ -89,7 +89,7 @@ em {
 	transition: .2s;
 }
 
-.invite-voice-red:hover span, .invite-voice-green:hover {
+.invite-voice:hover span, .invite-voice-alt:hover {
 	background-size: 100% 2px;
 
 }

@@ -15,8 +15,8 @@
 .case-title {
 	margin-top: 70px;
 	margin-bottom: 20px;
-	background-color: var(--black);
-	color: var(--white);
+	background-color: var(--shgray);
+	color: var(--black);
 	padding: 2em 2em;
 }
 
@@ -78,7 +78,7 @@ flex-wrapper {
 		position: sticky;
 		top: 20px;
 		z-index: 1;
-		background-color: var(--black);
+		background-color: var(--shgray);
 		padding: 10px 50px;
 		margin-top: 100px;
 		margin-left: auto;
