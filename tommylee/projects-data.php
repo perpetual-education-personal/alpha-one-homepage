@@ -11,15 +11,6 @@
 			"img1" => "images/thovon-02.jpg",
 			"img2" => "images/thovon-03.jpg",
 		],[
-			"key" => "fortia",
-			"title" => "Fortia Homme",
-			"intro" => "Ecommerce store built with Shopify. Fortia targets the young male audience to offer fresh and trendy jewelry. An elegant low key green and gray were chosen to denote masculinity.",
-			"par1" => "The collection images features elements from nature, metaphorically connecting the strength of nature to each collection's items. For the landing section, since the goal was to communicate as many ongoing promotions as possible, I chose a split hero section.",
-			"par2" => "To enhance the detail view of each item, I preferred to go with a one image column for the mobile view. A group of three items were created with Photoshop to make it visually engaging. I also created custom color swatches to replace the default ones since these were not matching with the overall look of the store.",
-			"logo" => "images/fortia-01.jpg",
-			"img1" => "images/fortia-02.jpg",
-			"img2" => "images/fortia-03.jpg",
-		],[
 			"key" => "trendy",
 			"title" => "Trendy Apparel&nbsp;Shop",
 			"intro" => "The client was in need of an interface lift for their store website. I worked on the entire home page creating a new visual theme, landing images, sections and collection groups.",
@@ -29,6 +20,15 @@
 			"img1" => "images/trendy-02.jpg",
 			"img2" => "images/trendy-03.jpg",
 		],[
+			"key" => "fortia",
+			"title" => "Fortia Homme",
+			"intro" => "Ecommerce store built with Shopify. Fortia targets the young male audience to offer fresh and trendy jewelry. An elegant low key green and gray were chosen to denote masculinity.",
+			"par1" => "The collection images features elements from nature, metaphorically connecting the strength of nature to each collection's items. For the landing section, since the goal was to communicate as many ongoing promotions as possible, I chose a split hero section.",
+			"par2" => "To enhance the detail view of each item, I preferred to go with a one image column for the mobile view. A group of three items were created with Photoshop to make it visually engaging. I also created custom color swatches to replace the default ones since these were not matching with the overall look of the store.",
+			"logo" => "images/fortia-01.jpg",
+			"img1" => "images/fortia-02.jpg",
+			"img2" => "images/fortia-03.jpg",
+		],[
 			"key" => "hyunji",
 			"title" => "Musician H. Yi",
 			"intro" => "The client was in need of a personal website to present the scope of work she offers. It was important for the website to represent her individual taste. For example, we worked together to choose the right fonts, color theme and visual layout. Built with HTML, CSS, Bootstrap.",
@@ -36,7 +36,7 @@
 		],[
 			"key"=> "pe-coffee",
 			"title" => "Store Front Development",
-			"intro" => "Personal project involving fully responsive layouts and custom theming. A button toggles between a car brand website and a coffee store website. Built with HTML, CSS and JS.",
+			"intro" => "Personal project involving fully responsive layouts and custom theming. A button toggles between a light and a dark theme. Built with HTML, CSS and JS.",
 			"logo" => "images/pe-coffee-01.jpg",
 		],[
 			"key"=> "pe-monsters",

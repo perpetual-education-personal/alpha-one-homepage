@@ -6,7 +6,7 @@
 				</picture>
 			</div>			
 			<div>
-				<a href="#home" class="invite-voice">Back to top ▲</a>
+				<a href="#top" class="invite-voice">Back to top ▲</a>
 				<br>
 				<p class="calm-voice">© 2021 Thomas Lee</p>
 			</div>
